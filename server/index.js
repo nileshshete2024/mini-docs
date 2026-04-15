@@ -7,7 +7,8 @@ app.use(cors());
 app.use(express.json({ limit: "10mb" }));
 app.use(express.urlencoded({ limit: "10mb", extended: true }));
 
-const db = new sqlite3.Database("./docs.db");
+const Database = require("better-sqlite3");
+const db = new Database("docs.db");
 
 db.run(`
 CREATE TABLE IF NOT EXISTS documents (
