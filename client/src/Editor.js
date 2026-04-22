@@ -13,10 +13,10 @@ export default function Editor({ content, onChange }) {
   return (
     <div>
       <button onClick={() => editor.chain().focus().toggleBold().run()}>
-        Bold
+        Bold Button
       </button>
       <button onClick={() => editor.chain().focus().toggleItalic().run()}>
-        Italic
+        Italic Button
       </button>
 
       <EditorContent editor={editor} />
