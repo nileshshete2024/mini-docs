@@ -18,7 +18,6 @@ export default function Editor({ content, onChange }) {
       <button onClick={() => editor.chain().focus().toggleItalic().run()}>
         Italic Button
       </button>
-
       <EditorContent editor={editor} />
     </div>
   );
