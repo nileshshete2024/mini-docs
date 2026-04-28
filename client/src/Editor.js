@@ -13,11 +13,12 @@ export default function Editor({ content, onChange }) {
   return (
     <div>
       <button onClick={() => editor.chain().focus().toggleBold().run()}>
-        Bold Button
+        Bold 
       </button>
       <button onClick={() => editor.chain().focus().toggleItalic().run()}>
-        Italic Button
+        Italic 
       </button>
+1
       <EditorContent editor={editor} />
     </div>
   );
