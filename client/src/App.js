@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div style={{ maxWidth: "800px", margin: "auto", padding: "20px" }}>
-      <h1>Mini Docs</h1>
+      <h1>Mini Docs in react18</h1>
 
       <input type="file" onChange={handleFileUpload} />
 
