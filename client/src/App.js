@@ -46,7 +46,7 @@ function App() {
       <button onClick={loadDoc}>Load</button>
       <Editor content={content} onChange={setContent} />
 
-      <h3>Share Document</h3>
+      <h3>Share Documents</h3>
       <input
         placeholder="Enter email"
         value={email}
