@@ -48,7 +48,7 @@ function App() {
 
       <h3>Share Documents</h3>
       <input
-        placeholder="Enter email"
+        placeholder="Enter email id"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
