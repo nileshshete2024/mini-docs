@@ -14,7 +14,6 @@ function App() {
     alert("Saved!");
   };
 
-
   const loadDoc = async () => {
     const res = await axios.get("https://mini-docs-56kr.onrender.com/doc/1");
     setContent(res.data.content);
