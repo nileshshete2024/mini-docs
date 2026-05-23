@@ -55,7 +55,6 @@ function App() {
 
       <h3>Shared Docs</h3>
       <button onClick={fetchShared}>Load Shared</button>
-
       <ul>
         {sharedDocs.map((doc) => (
           <li key={doc.id}>Shared Doc ID: {doc.docId}</li>
